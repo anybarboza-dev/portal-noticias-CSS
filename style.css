@@ -15,8 +15,9 @@
 body {
     background-color: #f4f6f9;
     color: #09090b;
-    padding: 30px;
-    background-color: #DADBE1;
+    padding-top: 30px;
+    background-color: rgb(216, 214, 214);
+    margin: 0;
 }
 
 main {
@@ -26,19 +27,27 @@ main {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 8px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 header {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
     background-color: white;
     padding: 20px;
     box-shadow: 0 2px 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
 }
 
 header h1 {
+    margin: 0;
     color: #2D3133;
 }
 
@@ -69,7 +78,7 @@ h2 {
 }
 
 h3 {
-    margin: 10px;
+    margin: 0;
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
@@ -111,4 +120,56 @@ time {
     background: white;
     padding: 15px;
     border-radius: 8px;
+}
+
+#esportes {
+    background-color: #679CDB;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#economia {
+    background-color: #DB9367;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#tecnologias {
+    background-color: #97DADB;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#politica {
+    background-color: #C7AE9F;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.btn-noticias  {
+    font-size: 14px;
+    display: inline-block;
+    padding: 2px 4px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+
+}
+
+#esportes .btn-noticias {
+    background-color: #679CDB;
+}
+
+#economia .btn-noticias {
+    background-color: #DB9367;
+}
+
+#tecnologias .btn-noticias {
+    background-color: #97DADB;
+}
+
+#politica .btn-noticias {
+    background-color: #C7AE9F;
 }
